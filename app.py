@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 
 
-client =pymongo.MongoClient("mongodb+srv://prashantwadhave5:Prash2002@cluster0.wkfocs3.mongodb.net/?retryWrites=true&w=majority")
+client =pymongo.MongoClient("mongodb+srv://Spidey:spaL73XFLxZ4YiCr@cluster0.wqc5t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = client.test
 db = client.DYNAMIC_QR_GENERATOR  # Use your actual database name
 collection = db['contact_list'] 
